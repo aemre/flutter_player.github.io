@@ -42364,7 +42364,7 @@ Y.xC.prototype={
 nt:function(){var t=0,s=P.R(u.kF),r,q=this,p,o,n,m
 var $async$nt=P.L(function(a,b){if(a===1)return P.O(b,s)
 while(true)switch(t){case 0:t=3
-return P.X(q.a.iY("GET","http://api.themoviedb.org/3/movie/popular?api_key=9c9576f8c2e86949a3220fcc32ae2fb6",null),$async$nt)
+return P.X(q.a.iY("GET","https://api.themoviedb.org/3/movie/popular?api_key=9c9576f8c2e86949a3220fcc32ae2fb6",null),$async$nt)
 case 3:p=b
 o=p.e
 n=B.uE(U.uz(o).c.a.h(0,"charset"))
@@ -42381,7 +42381,7 @@ ns:function(a){return this.Pn(a)},
 Pn:function(a){var t=0,s=P.R(u.mf),r,q=this,p,o,n,m
 var $async$ns=P.L(function(b,c){if(b===1)return P.O(c,s)
 while(true)switch(t){case 0:t=3
-return P.X(q.a.iY("GET","http://api.themoviedb.org/3/movie/"+H.a(a)+"?api_key=9c9576f8c2e86949a3220fcc32ae2fb6",null),$async$ns)
+return P.X(q.a.iY("GET","https://api.themoviedb.org/3/movie/"+H.a(a)+"?api_key=9c9576f8c2e86949a3220fcc32ae2fb6",null),$async$ns)
 case 3:p=c
 o=p.e
 n=B.uE(U.uz(o).c.a.h(0,"charset"))
@@ -42396,7 +42396,7 @@ nu:function(a){return this.Po(a)},
 Po:function(a){var t=0,s=P.R(u.kF),r,q=this,p,o,n,m
 var $async$nu=P.L(function(b,c){if(b===1)return P.O(c,s)
 while(true)switch(t){case 0:t=3
-return P.X(q.a.iY("GET","http://api.themoviedb.org/3/movie/"+H.a(a)+"/similar?api_key=9c9576f8c2e86949a3220fcc32ae2fb6",null),$async$nu)
+return P.X(q.a.iY("GET","https://api.themoviedb.org/3/movie/"+H.a(a)+"/similar?api_key=9c9576f8c2e86949a3220fcc32ae2fb6",null),$async$nu)
 case 3:p=c
 o=p.e
 n=B.uE(U.uz(o).c.a.h(0,"charset"))
